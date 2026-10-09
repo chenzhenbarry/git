@@ -1,0 +1,42 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and swap files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local environment and private credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Logs, temporary files, and caches
+*.log
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
+
+# Dependencies, build outputs, and test artifacts
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+coverage/
+target/
+bin/
+obj/
